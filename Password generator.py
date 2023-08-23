@@ -1,10 +1,4 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[2]:
-
-
-#password generator throgh python
+#password generator through python
 import random 
 letters=['a','b','c','d','e','f','g','h','i','j','k','l','m','n','o','p','q','r','s','t','u','v','w','x','y','z',
          'A','B','C','D','E','F','G','H','I','J','K','L','M','N','O','P','Q','R','S','T','U','V','W','X','Y','Z']
@@ -31,18 +25,4 @@ print(password_list)
 password = ""
 for  char in password_list:
     password += char
-    
 print("Your password will be!!!",password)
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
